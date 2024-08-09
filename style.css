@@ -22,6 +22,41 @@ a, .btn {
     transition: all 300ms ease;
 }
 
-nav, .nav-links {
+nav, .nav-areas {
     display: flex;
 }
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-areas {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.name 
+{
+    font-size: 2rem;
+}
+
+.name:hover {
+    cursor: default;
+}
+
